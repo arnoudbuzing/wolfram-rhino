@@ -37,13 +37,13 @@ InstallRhinoPlugin[]
 ```
 WolframConnect
 ```
-![rhino](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/setup-01.png "rhino")
+![rhino](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/images/setup-01.png "rhino")
 
 7. Start Mathematica. Step 8. through 10. are also in the [example.nb](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/example.nb) notebook.
 
 8. Using `Evaluation > Notebook's Kernel` set the notebook's kernel to `RhinoAttach`:
 
-![menu](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/setup-02.png "menu")
+![menu](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/images/setup-02.png "menu")
 
 9. Load the package:
 ```
@@ -56,10 +56,10 @@ RhinoShow @ ToRhino @ BoundaryDiscretizeGraphics @ Sphere[]
 ```
 
 11. View the result in Rhino:
-![output](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/output-01.png "output")
+![output](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/images/output-01.png "output")
 
 12. Render the result in Rhino:
-![output](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/output-02.png "output")
+![output](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/images/output-02.png "output")
 
 13. Now you can work with more complicated scenes and renderings:
-![spheres](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/spheres-01.jpg)
+![spheres](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/images/spheres-01.jpg)
