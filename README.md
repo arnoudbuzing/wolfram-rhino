@@ -40,7 +40,7 @@ WolframConnect
 
 8. Using `Evaluation > Notebook's Kernel` set the notebook's kernel to `RhinoAttach`:
 
-![menu][https://github.com/arnoudbuzing/wolfram-rhino/blob/master/setup-02.png]
+![menu][https://github.com/arnoudbuzing/wolfram-rhino/blob/master/setup-02.png "menu"]
 
 9. Load the package:
 ```
