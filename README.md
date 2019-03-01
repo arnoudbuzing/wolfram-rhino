@@ -39,7 +39,7 @@ WolframConnect
 ```
 ![rhino](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/setup-01.png "rhino")
 
-7. Start Mathematica
+7. Start Mathematica. Step 8. through 10. are also in the [example.nb](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/example.nb) notebook.
 
 8. Using `Evaluation > Notebook's Kernel` set the notebook's kernel to `RhinoAttach`:
 
