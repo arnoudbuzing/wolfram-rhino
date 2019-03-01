@@ -12,6 +12,8 @@ Using: https://github.com/WolframResearch/RhinoLink
 
 ## Setup instructions
 
+The commands for step 1. through 3. can be found in this ![setup.nb](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/setup.nb) notebook.
+
 1. Install the paclet for the Wolfram Language:
 ```
 PacletInstall["https://github.com/WolframResearch/RhinoLink/releases/download/v0.9/RhinoLink-0.9.0.paclet"]
