@@ -54,6 +54,7 @@ Needs["RhinoLink`"]
 ```
 RhinoShow @ ToRhino @ BoundaryDiscretizeGraphics @ Sphere[]
 ```
+![output](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/output-01.png "output")
 
 ![spheres][spheres]
 
