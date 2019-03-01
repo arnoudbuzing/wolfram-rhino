@@ -13,36 +13,42 @@ Using: https://github.com/WolframResearch/RhinoLink
 ## Setup instructions
 
 1. Install the paclet for the Wolfram Language:
-
-    PacletInstall["https://github.com/WolframResearch/RhinoLink/releases/download/v0.9/RhinoLink-0.9.0.paclet"]
+```
+PacletInstall["https://github.com/WolframResearch/RhinoLink/releases/download/v0.9/RhinoLink-0.9.0.paclet"]
+```
 
 2. Load the package:
+```
+Needs["RhinoLink`"]
+```
 
-    Needs["RhinoLink`"]
-    
 3. Run the following command to install the Wolfram Language plugin into Rhino:
-
-    InstallRhinoPlugin[]
+```
+InstallRhinoPlugin[]
+```
 
 4. Quit Mathematica
 
 5. Start Rhino
 
 6. In Rhino's command line window, evaluate the command below:
+```
+WolframConnect
+```
 
-    WolframConnect
-    
 7. Start Mathematica
 
 8. Using `Evaluation > Notebook's Kernel` set the notebook's kernel to `RhinoAttach`
 
 9. Load the package:
+```
+Needs["RhinoLink`"]
+```
 
-    Needs["RhinoLink`"]
-    
 10. Run the following command to deploy a sphere from the Wolfram Language to Rhino:
-
-    RhinoShow @ ToRhino @ BoundaryDiscretizeGraphics @ Sphere[]
+```
+RhinoShow @ ToRhino @ BoundaryDiscretizeGraphics @ Sphere[]
+```
 
 ![spheres][spheres]
 
