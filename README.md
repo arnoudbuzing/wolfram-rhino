@@ -28,6 +28,7 @@ Needs["RhinoLink`"]
 ```
 InstallRhinoPlugin[]
 ```
+![installer](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/images/installer-01.png)
 
 4. Quit Mathematica
 
