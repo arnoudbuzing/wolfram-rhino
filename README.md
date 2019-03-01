@@ -61,6 +61,5 @@ RhinoShow @ ToRhino @ BoundaryDiscretizeGraphics @ Sphere[]
 12. Render the result in Rhino:
 ![output](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/output-02.png "output")
 
-![spheres][spheres]
-
-[spheres]: https://github.com/arnoudbuzing/wolfram-rhino/blob/master/spheres-01.jpg "spheres"
+13. Now you can work with more complicated scenes and renderings:
+![spheres](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/spheres-01.jpg)
