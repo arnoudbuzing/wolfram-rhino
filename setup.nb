@@ -1,0 +1,126 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4292,        118]
+NotebookOptionsPosition[      3154,         91]
+NotebookOutlinePosition[      3502,        106]
+CellTagsIndexPosition[      3459,        103]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Wolfram Language interface to Rhino3D", "Title",
+ CellChangeTimes->{{3.7603785329438286`*^9, 
+  3.7603785516151724`*^9}},ExpressionUUID->"68dd9f00-adb3-4e6d-83a1-\
+55e85a64ab73"],
+
+Cell[CellGroupData[{
+
+Cell["setup", "Subsubsection",
+ CellChangeTimes->{{3.760378555911441*^9, 
+  3.7603785564954443`*^9}},ExpressionUUID->"e45ba748-285b-4688-a0d2-\
+7bd2ddc72640"],
+
+Cell["Install the paclet:", "Text",
+ CellChangeTimes->{{3.7604464787578173`*^9, 3.7604465079412003`*^9}, {
+  3.7604467943615313`*^9, 
+  3.7604467979205894`*^9}},ExpressionUUID->"af6b7689-a876-44e5-9687-\
+2958a0da5ea7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PacletInstall", "[", 
+  RowBox[{
+  "\"\<https://github.com/WolframResearch/RhinoLink/releases/download/v0.9/\
+RhinoLink-0.9.0.paclet\>\"", ",", 
+   RowBox[{"\"\<IgnoreVersion\>\"", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.760375119706873*^9, 3.7603751244484367`*^9}, {
+  3.7604465263948126`*^9, 3.7604465467198486`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"2ceda0d5-d45c-4883-a66f-b92255f16c45"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "Paclet", "[", "\<\"RhinoLink\"\>", ",", "\<\"0.9.0\"\>", ",", "<>", "]"}],
+  PacletManager`Paclet[
+  "Name" -> "RhinoLink", "Version" -> "0.9.0", "MathematicaVersion" -> "11+", 
+   "Extensions" -> {{
+     "Documentation", "Language" -> "English", "MainPage" -> 
+      "Guides/RhinoLink"}, {
+     "Kernel", "Root" -> "Kernel", "Context" -> {"RhinoLink`"}}}, "Location" -> 
+   "C:\\Users\\arnoudb.WRI\\AppData\\Roaming\\Mathematica\\Paclets\\\
+Repository\\RhinoLink-0.9.0"]]], "Output",
+ CellChangeTimes->{{3.7604465360129824`*^9, 3.7604465517189403`*^9}, 
+   3.760446583974536*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"2464ac2f-6b78-4b00-b601-f1d5bc787905"]
+}, Open  ]],
+
+Cell["Load the package:", "Text",
+ CellChangeTimes->{{3.7604468006656437`*^9, 
+  3.760446802930681*^9}},ExpressionUUID->"2b63c5c5-bbbc-4549-b099-\
+229967cc2390"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<RhinoLink`\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.760446557089036*^9, 3.760446567056221*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"68826101-e6db-41ad-9a45-6fd38518f923"],
+
+Cell["Install the plugin:", "Text",
+ CellChangeTimes->{{3.7604468056987333`*^9, 
+  3.7604468085927796`*^9}},ExpressionUUID->"14a737c5-2a54-4779-bca0-\
+781f2d8bdfac"],
+
+Cell[BoxData[
+ RowBox[{"InstallRhinoPlugin", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.760375146114112*^9, 3.7603751461151104`*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"77f50b69-4099-4dfa-8ebd-73e1dc466d5e"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{958, 988},
+WindowMargins->{{Automatic, 380}, {Automatic, 150}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (February 25, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 184, 3, 96, "Title",ExpressionUUID->"68dd9f00-adb3-4e6d-83a1-55e85a64ab73"],
+Cell[CellGroupData[{
+Cell[789, 29, 158, 3, 44, "Subsubsection",ExpressionUUID->"e45ba748-285b-4688-a0d2-7bd2ddc72640"],
+Cell[950, 34, 218, 4, 34, "Text",ExpressionUUID->"af6b7689-a876-44e5-9687-2958a0da5ea7"],
+Cell[CellGroupData[{
+Cell[1193, 42, 443, 8, 48, "Input",ExpressionUUID->"2ceda0d5-d45c-4883-a66f-b92255f16c45"],
+Cell[1639, 52, 706, 14, 32, "Output",ExpressionUUID->"2464ac2f-6b78-4b00-b601-f1d5bc787905"]
+}, Open  ]],
+Cell[2360, 69, 161, 3, 34, "Text",ExpressionUUID->"2b63c5c5-bbbc-4549-b099-229967cc2390"],
+Cell[2524, 74, 219, 3, 28, "Input",ExpressionUUID->"68826101-e6db-41ad-9a45-6fd38518f923"],
+Cell[2746, 79, 165, 3, 34, "Text",ExpressionUUID->"14a737c5-2a54-4779-bca0-781f2d8bdfac"],
+Cell[2914, 84, 212, 3, 28, "Input",ExpressionUUID->"77f50b69-4099-4dfa-8ebd-73e1dc466d5e"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
