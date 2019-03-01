@@ -35,6 +35,7 @@ InstallRhinoPlugin[]
 ```
 WolframConnect
 ```
+![rhino](https://github.com/arnoudbuzing/wolfram-rhino/blob/master/setup-01.png "rhino")
 
 7. Start Mathematica
 
