@@ -38,7 +38,9 @@ WolframConnect
 
 7. Start Mathematica
 
-8. Using `Evaluation > Notebook's Kernel` set the notebook's kernel to `RhinoAttach`
+8. Using `Evaluation > Notebook's Kernel` set the notebook's kernel to `RhinoAttach`:
+
+![menu][https://github.com/arnoudbuzing/wolfram-rhino/blob/master/setup-02.png]
 
 9. Load the package:
 ```
